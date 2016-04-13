@@ -273,3 +273,14 @@ footer and contact form
     border: 2px solid #a9a9a9;
     color: #fff;
 }
+
+/*
+==================================
+about
+=================================
+*/
+
+#about ul li h6,
+#about ul li p {
+    color: #fff;
+}
