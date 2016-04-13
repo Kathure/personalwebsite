@@ -188,8 +188,7 @@ footer and contact form
     padding-left: 0.5rem;
     padding-right: 1.65rem;
     -webkit-text-fill-color: transparent;
-    /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
+    Will override color (regardless of order) -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #a9a9a9;
 }
 @media only screen and (max-width: 40em) {
@@ -235,13 +234,6 @@ footer and contact form
 .contact-footer p.form-lead {
     font-weight: 200;
     font-size: 1rem;
-    margin-bottom: 0.5rem;
-    margin-left: 0;
-}
-.contact-footer p.form-lead-in {
-    color: #E87E04;
-    font-weight: 300;
-    font-size: 1.3rem;
     margin-bottom: 0.5rem;
     margin-left: 0;
 }
