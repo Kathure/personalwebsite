@@ -163,6 +163,9 @@ hero
     color: #E87E04;
     text-align: center;
 }
+.hero img {
+    border-radius: 50%;
+}
 
 /*
 =====================
