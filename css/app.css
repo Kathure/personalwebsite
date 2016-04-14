@@ -1,4 +1,15 @@
-body {}
+body {
+    position: relative;
+    font-family: 'Poiret One', fantasy;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto Condnsed', sans-serif
+}
 .row {
     max-width: 1350px;
 }
@@ -133,10 +144,10 @@ hero
 ===================================
 */
 
-.hero {
+.container {
     background-image: url(/assets/stormtrooper.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 .hero p {
     font-size: 60px;
@@ -297,7 +308,18 @@ about
 =================================
 */
 
-#about ul li h6,
-#about ul li p {
+#about h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #E87E04;
+    text-align: center;
+}
+#about p {
+    font-size: 35px;
+    font-weight: 400;
     color: #fff;
+    text-align: center;
+}
+.main_content {
+    background: transparent;
 }
