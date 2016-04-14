@@ -13,6 +13,13 @@ h6 {
 .row {
     max-width: 1350px;
 }
+
+/*
+====================
+navigation
+===================
+*/
+
 .clearfix:before,
 .clearfix:after {
     content: " ";
@@ -145,16 +152,16 @@ hero
 */
 
 .container {
-    background-image: url(/assets/stormtrooper.jpg);
+    background-image: url(/assets/pphoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 .hero p {
     font-size: 60px;
     font-weight: 800;
-    padding-top: 40%;
+    padding-top: 25%;
     color: #E87E04;
-    text-align: justify;
+    text-align: center;
 }
 
 /*
@@ -171,6 +178,45 @@ overlay
     height: 100%;
     z-index: 10;
     background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*
+==================================
+about
+=================================
+*/
+
+#about h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #E87E04;
+    text-align: center;
+}
+#about p {
+    font-size: 35px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+.main_content {
+    background: transparent;
+}
+
+/*
+===============================
+portfolio
+==============================
+*/
+
+.portfolio {
+    background: #000;
+}
+.portfolio img {
+    border-radius: 5px 20px 5px;
+    border: 1px solid #E87E04;
+}
+.portfolio h3 {
+    color: #fff;
 }
 
 /*
@@ -301,35 +347,3 @@ footer and contact form
     border: 2px solid #a9a9a9;
     color: #fff;
 }
-
-/*
-==================================
-about
-=================================
-*/
-
-#about h2 {
-    font-size: 40px;
-    font-weight: 600;
-    color: #E87E04;
-    text-align: center;
-}
-#about p {
-    font-size: 35px;
-    font-weight: 400;
-    color: #fff;
-    text-align: center;
-}
-.main_content {
-    background: transparent;
-}
-
-
-/*
-===============================
-portfolio
-==============================
-*/
-
-
-
