@@ -29,7 +29,7 @@ navigation
     clear: both;
 }
 header {
-    background: #000;
+    background: #7CA982;
     padding: 1rem;
     color: white;
     font-family: sans-serif;
@@ -112,7 +112,7 @@ header {
 }
 .nav-button {
     float: left;
-    background: #000;
+    background: #7CA982;
     padding: 0.5rem;
     margin-top: .25rem;
 }
@@ -128,7 +128,7 @@ nav {
 }
 ul {
     width: 100%;
-    background: #000;
+    background: #7CA982;
     margin: 0;
     padding: 0;
 }
@@ -159,28 +159,10 @@ hero
 .hero p {
     font-size: 60px;
     font-weight: 800;
-    padding-top: 25%;
+    padding-top: 40%;
     color: #E87E04;
     text-align: center;
-}
-.hero img {
-    border-radius: 50%;
-}
-
-/*
-=====================
-overlay
-===================
-*/
-
-.overlay {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 40%;
 }
 
 /*
@@ -189,6 +171,16 @@ about
 =================================
 */
 
+.main content {
+    /*    background-image: url(/assets/.jpg);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about {
+    position: relative;
+    background-color: #007EA7;
+    opacity: 0.6;
+}
 #about h2 {
     font-size: 40px;
     font-weight: 600;
@@ -201,9 +193,6 @@ about
     color: #fff;
     text-align: center;
 }
-.main_content {
-    background: transparent;
-}
 
 /*
 ===============================
@@ -212,11 +201,13 @@ portfolio
 */
 
 .portfolio {
-    background: #000;
+    background-color: #003459;
 }
 .portfolio img {
     border-radius: 5px 20px 5px;
-    border: 1px solid #E87E04;
+    border: 1px solid #666;
+    padding: 5 10%;
+    margin: 5% 10%;
 }
 .portfolio h3 {
     color: #fff;
@@ -232,23 +223,23 @@ footer and contact form
     max-width: rem-calc(1200);
 }
 .contact-footer {
-    background-color: #000;
+    background-color: #2F3061;
     padding: 3.5rem 0;
 }
 .contact-footer .round-inputs input {
     border-radius: 1000px;
-    background-color: #000;
+    background-color: #2F3061;
     height: 3.3125rem;
     text-align: center;
 }
 .contact-footer .round-inputs textarea {
     border-radius: 30px;
-    background-color: #000;
+    background-color: #2F3061;
     height: 8rem;
     text-align: center;
 }
 .contact-footer h4 {
-    color: #e5e5e5;
+    color: #fff;
     font-weight: 100;
     margin-bottom: 0.25rem;
 }
@@ -317,11 +308,12 @@ footer and contact form
 .contact-footer .social i {
     font-size: 1.8rem;
     font-weight: 300;
-    color: #E87E04;
+    color: #2F3061;
     margin: 0;
     padding: 4px 8px 4px 8px;
-    border: 2px solid #E87E04;
+    border: 2px solid #2F3061;
     border-radius: 50%;
+    background: #001715;
 }
 @media only screen and (max-width: 40em) {
     .contact-footer .social i {
@@ -331,6 +323,8 @@ footer and contact form
 }
 .contact-footer .inline-list {
     margin: 0 0 0.5rem -0.3rem;
+    background: #2F3061;
+    text-align: center;
 }
 .contact-footer .inline-list > li {
     margin-left: 0.5rem;
@@ -342,14 +336,14 @@ footer and contact form
 }
 .contact-footer .button {
     background: transparent;
-    border: 2px solid #E87E04;
+    border: 2px solid #2F3061;
     color: #a9a9a9;
     width: 100%;
     border-radius: 10px;
-    font-size:
+    font-size: 20px;
 }
 .contact-footer .button:hover {
-    background: #E87E04;
+    background: #003459;
     border: 2px solid #a9a9a9;
     color: #fff;
 }
