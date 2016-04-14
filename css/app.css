@@ -344,6 +344,9 @@ footer and contact form
     background: transparent;
     border: 2px solid #E87E04;
     color: #a9a9a9;
+    width: 100%;
+    border-radius: 10px;
+    font-size:
 }
 .contact-footer .button:hover {
     background: #E87E04;
