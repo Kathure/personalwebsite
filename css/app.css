@@ -210,8 +210,8 @@ portfolio
 .portfolio img {
     border-radius: 5px 20px 5px;
     border: 1px solid #666;
-    padding: 5 10%;
-    margin: 5% 10%;
+    padding: 5 5%;
+    margin: 5% 5%;
 }
 .portfolio h3 {
     color: #fff;
@@ -334,40 +334,4 @@ submit button
 =====================
 social icons
 ======================
-*/
-
-.contact-footer .social {
-    background: #fff;
-}
-
-/*
-.contact-footer .social i {
-    font-size: 1.8rem;
-    font-weight: 300;
-    color: #2F3061;
-    margin: 0;
-    padding: 4px 8px 4px 8px;
-    border: 2px solid #2F3061;
-    border-radius: 50%;
-    background: #001715;
-}
-@media only screen and (max-width: 40em) {
-    .contact-footer .social i {
-        font-size: 2rem;
-        margin-right: 0.5rem;
-    }
-}
-.contact-footer .inline-list {
-    margin: 0 0 0.5rem -0.3rem;
-    background: #2F3061;
-    text-align: center;
-}
-.contact-footer .inline-list > li {
-    margin-left: 0.5rem;
-}
-@media only screen and (max-width: 40em) {
-    .contact-footer .inline-list > li {
-        margin-bottom: 0.875rem;
-    }
-}
 */
