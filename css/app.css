@@ -131,7 +131,7 @@ nav {
 ul {
     position: fixed;
     width: 100%;
-    background: #7CA982;
+    background: #494949;
     opacity: 0.9;
     margin: 0;
     padding: 0;
@@ -159,7 +159,7 @@ hero
 */
 
 .container {
-    background-image: url(/assets/pphoto.jpg);
+    background-image: url(../assets/pphoto.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -179,7 +179,6 @@ about
 */
 
 .main content {
-    /*    background-image: url(/assets/.jpg);*/
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -272,9 +271,11 @@ footer and contact form
     color: #000;
     padding-left: 0.5rem;
     padding-right: 1.65rem;
+    /*
     -webkit-text-fill-color: transparent;
     Will override color (regardless of order) -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+*/
 }
 @media only screen and (max-width: 40em) {
     .contact-footer h4.phone {
@@ -290,10 +291,12 @@ footer and contact form
     color: #000;
     padding-left: 0.5rem;
     padding-right: 1.55rem;
+    /*
     -webkit-text-fill-color: transparent;
-    /* Will override color (regardless of order) */
+     Will override color (regardless of order) 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+*/
 }
 .contact-footer h4.location:before {
     font-family: "foundation-icons";
@@ -304,10 +307,12 @@ footer and contact form
     color: #000;
     padding-left: 0.5rem;
     padding-right: 1.85rem;
+    /*
     -webkit-text-fill-color: transparent;
-    /* Will override color (regardless of order) */
+     Will override color (regardless of order) 
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: #000;
+*/
 }
 .contact-footer p {
     color: #000;
